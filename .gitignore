@@ -19,3 +19,13 @@ yarn-error.log
 # Package-lock files
 package-lock.json
 yarn.lock
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
