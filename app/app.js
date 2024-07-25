@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 const host = process.env.HOST || 'localhost'
 
 app.get('/', (_, res) => {
-    res.send(`Hello World!`);
+    res.send(`Hello, World!`);
 });
 
 app.listen(port, () => {
