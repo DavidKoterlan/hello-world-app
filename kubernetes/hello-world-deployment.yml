@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: dkoterlan/hello-world-app-test:latest
+          image: dkoterlan/hello-world-app:latest
           ports:
             - containerPort: 8080
